@@ -1,20 +1,21 @@
 class ArmStrong{
-	public static void main(Strinh[] args)
+	public static void main(String[] args)
 	{
-		int num=121;
+		int num=153;
 		int temp=num;
 		int sum=0;
 		while(num!=0)
 		{
 			int rem=num%10;
 			sum=sum+rem*rem*rem;
-			num=num%10;
-			if(sum==num)
+			num=num/10;
+		}
+			if(sum==temp)
 			{
 				System.out.println("no is armStrong");
 			}
 			else
-				System.out.println("not armstronh");
-		}
+				System.out.println("not armstrong");
 	}
 }
+

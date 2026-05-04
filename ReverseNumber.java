@@ -9,6 +9,6 @@ class ReverseNumber{
 		rev=rev*10+digit;
 		num=num/10;
 	}
-	}
 	System.out.println("reversed number is:"+rev);
+}
 }

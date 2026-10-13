@@ -1,4 +1,4 @@
-class Duplicate{
+class DuplicateNo{
 	public static void main(String... values)
 	{
 	int num[]={2,4,5,6,3,4};
@@ -8,7 +8,7 @@ class Duplicate{
 	{
 		if(num[i]==num[j])
 		{
-			System.out.println("duplicate number is:"+num[i]);
+			System.out.println("duplicate number is :"+num[i]);
 		}
 	}
 	}

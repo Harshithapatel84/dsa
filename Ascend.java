@@ -1,7 +1,7 @@
 class Ascend{
 	public static void main(String... values)
 	{
-		int num[]={5,2,8,1,4};
+		int num[]={5,3,8,1,4};
 		for(int i=0;i<num.length;i++)
 		{
 			for(int j=i+1;j<num.length;j++)
